@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Bootslander
+  * Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">Bhavya Enterprises</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <!-- <li><a href="#about">About</a></li> -->
+          <!-- <li><a href="#features">Features</a></li> -->
+          <!-- <li><a href="#gallery">Gallery</a></li> -->
+          <!-- <li><a href="#team">Team</a></li> -->
+          <!-- <li><a href="#pricing">Pricing</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> -->
+            <ul>
+              <!-- <li><a href="#">Dropdown 1</a></li> -->
+              <!-- <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> -->
+                <ul>
+                  <!-- <li><a href="#">Deep Dropdown 1</a></li> -->
+                  <!-- <li><a href="#">Deep Dropdown 2</a></li> -->
+                  <!-- <li><a href="#">Deep Dropdown 3</a></li> -->
+                  <!-- <li><a href="#">Deep Dropdown 4</a></li> -->
+                  <!-- <li><a href="#">Deep Dropdown 5</a></li> -->
+                </ul>
+              </li>
+              <!-- <li><a href="#">Dropdown 2</a></li> -->
+              <!-- <li><a href="#">Dropdown 3</a></li> -->
+              <!-- <li><a href="#">Dropdown 4</a></li> -->
+            </ul>
+          </li>
+          <!-- <li><a href="">Contact</a></li> -->
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+
+    <style>
+        /* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+    background-color:#5f5d5d;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+.logo img {
+    width: 100px;
+
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    transform: scale(1.1);
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+
+.header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #007bff;
+    background-color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+/* About Section */
+.about-section {
+    background-color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    line-height: 1.8;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    </style>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/hero-bg-2.jpg" alt="" class="hero-bg">
+
+      <div class="container">
+        <div class="row gy-4 justify-content-between">
+          <div class="col-lg-4 order-lg-last hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <!-- <img src="assets/img/hero-img.png" class="img-fluid animated" alt=""> -->
+          </div>
+
+          <div class="col-lg-6  d-flex flex-column justify-content-center" data-aos="fade-in">
+            <h1><span>About</span></h1>
+            <!-- <p>S E C U R I T Y S O L U T I O N</p> -->
+            <div class="d-flex">
+              <!-- <a href="#about" class="btn-get-started">Get Started</a> -->
+              <!-- <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"></path>
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3"></use>
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0"></use>
+        </g>
+        <g class="wave3">
+          <use xlink:href="#wave-path" x="50" y="9"></use>
+        </g>
+      </svg>
+
+    </section><!-- /Hero Section -->
+
+    
+
+ 
+
+
+
+    <header class="header" style="background: rgb(83, 88, 75);border-radius: 0% 20%; margin-top: 80px;">
+        <div class="logo">
+            <img src="./assets/img/bhavya logo (2).png" alt="Bhavya Enterprises Logo">
+        </div>
+        <h1>Welcome to Bhavya Enterprises Security Solutions</h1>
+        <p>Providing the best in video surveillance and security solutions since 2010.</p>
+        <!-- <a href="#about" class="btn">About Us</a> -->
+    </header>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>We are pleased to introduce ourselves, M/s Bhavya Enterprises Security Solutions, and a pioneer in the field of technology of advanced video surveillance solution provider. Under the supervision of expert and experienced technicians, we serve the best, right from</p>
+        <p> <span style="color: red;">Pre-installation:</span> Providing perfect guidance to our clients, in reference to, making choices out of the world’s best surveillance equipment’s and products available in the market, which we provide at a good competitive price in the competitive market.</p>
+    </section>
+
+    <section id="about" class="about-section">
+        <!-- <h2>About Us</h2> -->
+        <p><span style="color: red;">Installation:</span> We set the surveillance design of the cliental site, in such manner, that covers maximum area with minimum surveillance equipment and products to be installed, which proves to be very cost effective to the clients.</p>
+        <p> <span style="color: red;">Post-installation:</span>  We provide the best after sales services, under nominal Annual Maintenance Contracts {AMC} which is just a phone call away.</p>
+    </section>
+
+    <section id="about" class="about-section">
+        <!-- <h2>About Us</h2> -->
+        <p> <span style="color: rgb(24, 181, 42);">M/s Bhavya Enterprises Security Solutions</span>  offers industry's best security cameras, CCTV and video surveillance systems designed for exceptional performance in the indoor and outdoor. established in the year 2010,<span style="color: rgb(24, 181, 42);">M/s Bhavya Enterprises Security Solutions</span>  has experienced a aggressive growth over the last few years, due to its world- wide customers recognition and excellent work ethic, marketing endeavors, technological advancement, innovative quality products and exceptional service. Our charter is to retail and install high quality cost effective Closed Circuit Television products to meet today's stringent requirements.<span style="color:  rgb(24, 181, 42);;">M/s Bhavya Enterprises Security Solutions</span>  is staffed with highly trained, experienced, and creative individuals specializing in the development and manufacturing of high performance CCTV solutions.</p>
+    </section>
+
+    <section id="about" class="about-section">
+        <!-- <h2>About Us</h2> -->
+        <p>We believe our strength is our clients. We grow with your trust. And we have a respected list of customers who always call upon us for quality and service which we always deliver.</p>
+     
+
+
+          <!-- Gallery Section -->
+    <section id="gallery" class="gallery section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Gallery</h2>
+          <div><span>Check Our</span> <span class="description-title">Clients</span></div>
+        </div><!-- End Section Title -->
+  
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+  
+          <div class="row g-0">
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="./New folder (2)/PizzaHut.jpeg" class="glightbox" data-gallery="images-gallery">
+                  <img src="./New folder (2)/PizzaHut.jpeg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="./New folder (2)/hyundai-logo.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="./New folder (2)/hyundai-logo.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="./New folder (2)/Hero-MotoCorp-logo.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="./New folder (2)/Hero-MotoCorp-logo.png" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="./New folder (2)/veena-developers-logo-.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="./New folder (2)/veena-developers-logo-.png" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="./New folder (2)/chilis-logo.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="./New folder (2)/chilis-logo.png" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
+  
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="./New folder (2)/KFC 01.png" class="glightbox" data-gallery="images-gallery">
+                  <img src="./New folder (2)/KFC 01.png" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div><!-- End Gallery Item -->
+<!--   
+            <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div> -->
+  
+            <!-- <div class="col-lg-3 col-md-4">
+              <div class="gallery-item">
+                <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
+                  <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div> -->
+  
+          </div>
+  
+        </div>
+  
+      </section><!-- /Gallery Section -->
+    </section>
+
+    <footer>
+        <p>Contact Us: <strong>9022690353</strong> / <strong>9920653049</strong> / <strong>9004104481</strong></p>
+        <p>Email: <a href="mailto:bhavyaenterprises0911@gmail.com">bhavyaenterprises0911@gmail.com</a></p>
+    </footer>
+
+ 
+
+  
+
+  
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Bhavya
+              Enterprises            </span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Ahemdabad</p>
+            <p>USA</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+91-90226 90353</span></p>
+            <p><strong>Email:</strong> <span>bhavyaenterprises0911@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+      
+
+        <div class="col-lg-4 col-md-12 footer-newsletter">
+          <h4>Our Newsletter</h4>
+          <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+          <form action="forms/newsletter.php" method="post" class="php-email-form">
+            <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Bhavya
+        Enterprises      </strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed & Developed by <a href="https://www.linkedin.com/in/ansh-makadia-4a32bb221/">Ansh Patel</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
