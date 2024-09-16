@@ -805,7 +805,7 @@ section,
 
 .hero:before {
   content: "";
-  background: rgba(231, 167, 167, 0.4);
+  background:rgba(91, 91, 204, 0.712);
   position: absolute;
   inset: 0;
   z-index: 2;
